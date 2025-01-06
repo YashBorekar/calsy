@@ -2,13 +2,38 @@
   <head>
    
 <style>
-  h1,h2{
+  
+  li,h2{
   color:red;
-}
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container{
+    padding: 2px;
+    border: 1px solid grey;
+  }
+  .main li{
+    margin: 5px;
+    list-style: none;
+    padding: 10px;
+    font-size: 30px;
+  }
+
 </style>
  <title>Github</title>
   </head>
   <body>
+     <div class="container" >
+      <ul class="main">  
+        <li>Menu</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Homepage</li>
+      </ul>
+      </div>
     <h1>Hello Git</h1>
        <h2>Hello World</h2>
     <div><img src="k.png" alt="Hello World from Space"
